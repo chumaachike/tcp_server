@@ -1,0 +1,104 @@
+# ==========================
+# Build directories
+# ==========================
+build/
+
+
+# ==========================
+# Object files
+# ==========================
+*.o
+*.obj
+*.lo
+*.slo
+
+# ==========================
+# Libraries
+# ==========================
+*.a
+*.la
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# ==========================
+# Executables
+# ==========================
+*.exe
+*.out
+
+tcp_sever
+
+# ==========================
+# Debug files
+# ==========================
+*.dSYM/
+*.stackdump
+*.core
+core.*
+
+# ==========================
+# CMake
+# ==========================
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+
+# ==========================
+# Autotools
+# ==========================
+autom4te.cache/
+aclocal.m4
+configure
+config.log
+config.status
+
+# ==========================
+# Ninja
+# ==========================
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ==========================
+# Visual Studio
+# ==========================
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# CLion / JetBrains
+# ==========================
+.idea/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Linux
+# ==========================
+*~
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
+
+
+hhh.txt

@@ -10,4 +10,6 @@ private:
     Controller& controller;
 public:
     explicit DBManager(Controller& controller);
+
+    void startDbManger();
 };
